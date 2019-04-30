@@ -1,0 +1,103 @@
+---
+# Project information
+site_name: Host Networks
+site_description: Host Networks FAQ
+site_author: Nick Meredith
+
+# Copyright
+copyright: 'Copyright &copy; 2019 Host Networks'
+
+# Theme Configuration
+theme:
+    name: material
+    
+    # Theme color palette
+    palette:
+        #primary: 'light blue 800'
+        #primary: 'light blue 800'
+        #accent: 'light blue a200'
+        primary: 'green'
+        accent: 'light green'
+    
+    # Don't include MkDocs' JavaScript
+    include_search_page: false
+    search_index_only: true
+
+    # Default theme values
+    language: en
+    feature:
+        tabs: false
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/images/favicon.png
+    logo: 'img/hn-logo.png'
+
+# Customization
+extra:
+    search:
+        language: en
+    social:
+        - type: facebook
+          link: https://facebook.com/HostNetworksAU
+        - type: twitter
+          link: https://twitter.com/HostNetworks
+
+# Extentions
+markdown_extensions:
+  - codehilite
+  #- codehilite:
+  #    linenums: true
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+# Page tree
+pages:
+    - 'FAQ Home': 'index.md'
+    - 'cPanel Hosting':
+        - 'E-Mail Settings': 'cpanel-hosting/email-settings.md'
+        - 'Hosts File': 'cpanel-hosting/hosts-file.md'
+        - 'PHP OPcache': 'cpanel-hosting/php-opcache.md'
+    - 'IPv6 Networking':
+        - 'Windows and IPv6': 'networking/win10v6.md'
+#    - 'Reseller Hosting':
+#        - 'DNS': 'reseller-hosting/dns.md'
+    - 'Contact': 'contact.md'
+
+# Extra CSS includes
+extra_css:
+    - "static/css/extra.css"
+
+#theme: 'material'
+#    language: 'en'
+#  palette:
+#    primary: 'green'
+#    accent: 'green'
+#extra:
+#  search:
+#    language: 'en'
+#  palette:
+#    primary: 'green'
+#    accent: 'light-green'
+#  social:
+#    - type: 'facebook'
+#      link: 'https://facebook.com/HostNetworksAU'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/HostNetworks'
+#  language: 'en'
