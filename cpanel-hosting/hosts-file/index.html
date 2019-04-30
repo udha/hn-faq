@@ -1,0 +1,527 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Host Networks FAQ">
+      
+      
+      
+        <meta name="author" content="Nick Meredith">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.1, mkdocs-material-2.0.4">
+    
+    
+      
+        <title>Hosts File - Host Networks</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-709eec9410.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../static/css/extra.css">
+    
+    
+  </head>
+  
+    
+    
+    
+      <body data-md-color-primary="green" data-md-color-accent="light-green">
+    
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Host Networks" class="md-header-nav__button md-logo">
+          
+            <img src="../../img/hn-logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  cPanel Hosting
+                </span>
+              
+            
+            Hosts File
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../img/hn-logo.png" width="24" height="24">
+      
+    </span>
+    Host Networks
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="FAQ Home" class="md-nav__link">
+      FAQ Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      cPanel Hosting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        cPanel Hosting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../email-settings/" title="E-Mail Settings" class="md-nav__link">
+      E-Mail Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Hosts File
+      </label>
+    
+    <a href="./" title="Hosts File" class="md-nav__link md-nav__link--active">
+      Hosts File
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-hosts-files" title="About hosts files" class="md-nav__link">
+    About hosts files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to" title="How-To" class="md-nav__link">
+    How-To
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" title="Cleaning Up" class="md-nav__link">
+    Cleaning Up
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../php-opcache/" title="PHP OPcache" class="md-nav__link">
+      PHP OPcache
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      IPv6 Networking
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        IPv6 Networking
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../networking/win10v6/" title="Windows and IPv6" class="md-nav__link">
+      Windows and IPv6
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../contact/" title="Contact" class="md-nav__link">
+      Contact
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-hosts-files" title="About hosts files" class="md-nav__link">
+    About hosts files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to" title="How-To" class="md-nav__link">
+    How-To
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" title="Cleaning Up" class="md-nav__link">
+    Cleaning Up
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="hosts-file-faq">Hosts File <small>FAQ</small></h1>
+<h2 id="about-hosts-files">About hosts files</h2>
+<p>A <code class="codehilite"><span class="nf">hosts</span></code> file can be used to override the DNS for your domain name. This is ideal for testing new site hosting before making any public DNS changes, so that you can confirm everything is working right.</p>
+<p>To point <code class="codehilite"><span class="nf">myexample.com.au</span></code> domain to <code class="codehilite"><span class="nf">202.174.108.4</span></code> using your <code class="codehilite"><span class="nf">hosts</span></code> file we will simply need to add the following lines into the <code class="codehilite"><span class="nf">hosts</span></code> file: </p>
+<div class="codehilite"><pre><span></span><span class="nf">202.174.108.4</span><span class="w">   </span><span class="nv">myexample.com.au</span>
+<span class="nf">202.174.108.4</span><span class="w">   </span><span class="nv">www.myexample.com.au</span>
+</pre></div>
+
+<details class="info"><summary>Advanced <code class="codehilite"><span class="nf">IPv6</span></code> tips:</summary><p>Manually Set an <code class="codehilite"><span class="nf">IPv6</span><span class="w"> </span><span class="nv">AAAA</span><span class="w"> </span><span class="nv">record</span></code>:
+<div class="codehilite"><pre><span></span><span class="nf">2402:e400::0</span><span class="w">     </span><span class="nv">myexample.com.au</span>
+<span class="nf">2402:e400::0</span><span class="w">     </span><span class="nv">www.myexample.com.au</span>
+</pre></div></p><p>Override existing <code class="codehilite"><span class="nf">IPv6</span><span class="w"> </span><span class="nv">AAAA</span><span class="w"> </span><span class="nv">records</span></code> with an <code class="codehilite"><span class="nf">IPv4</span></code> address:</p><div class="codehilite"><pre><span></span><span class="nf">::202.174.108.4</span><span class="w">   </span><span class="nv">myexample.com.au</span>
+<span class="nf">::202.174.108.4</span><span class="w">   </span><span class="nv">www.myexample.com.au</span>
+</pre></div>
+</details><hr />
+<h2 id="how-to">How-To</h2>
+<p>For modern Windows users open the start menu and type <code class="codehilite"><span class="nf">notepad</span></code> to have the built-in search locate the <strong>Notepad</strong> <small><em>Desktop App</em></small>. Then <code class="codehilite">right-click</code> on it and select <code class="codehilite">Run as administrator</code>:</p>
+<p><img alt="Run Notepa as Administrator" src="../../img/hostsfile/StartMenu_Notepad_RunAsAdmin.png" /></p>
+<hr />
+<p>Within <code class="codehilite">Notepad</code> click <code class="codehilite">File &gt; Open...</code> and type or copy-paste the following <code class="codehilite">File name</code>:</p>
+<div class="codehilite"><pre><span></span><span class="nf">C:\Windows\system32\drivers\etc\hosts</span>
+</pre></div>
+
+<p><img alt="Notepad &gt; Open &gt; c:\windows\system32\drivers\etc\hosts" src="../../img/hostsfile/Notepad_Open_win-sys32-drivers-etc-hosts.png" /></p>
+<hr />
+<p>Once you have clicked <code class="codehilite">Open</code> you will see the contents of your <code class="codehilite"><span class="nf">hosts</span></code> file. This is where we add the IP address followed by the domain name on a new line, in our example we will add the following:</p>
+<div class="codehilite"><pre><span></span><span class="nf">202.174.108.4</span><span class="w">   </span><span class="nv">myexample.com.au</span>
+<span class="nf">202.174.108.4</span><span class="w">   </span><span class="nv">www.myexample.com.au</span>
+</pre></div>
+
+<p><img alt="Notepad &gt; Open &gt; c:\windows\system32\drivers\etc\hosts" src="../../img/hostsfile/Notepad_hosts_myexample.com.au.png" /></p>
+<hr />
+<p>Remember to <code class="codehilite">Save</code> the changes in <code class="codehilite">notepad</code> before we <code class="codehilite"><span class="nf">ping</span></code> to test the changes made:</p>
+<div class="codehilite"><pre><span></span><span class="nf">ping</span><span class="w"> </span><span class="nv">www.myexample.com.au</span>
+</pre></div>
+
+<p><img alt="cmd.exe &gt; ping www.myexample.com.au" src="../../img/hostsfile/cmd_ping_myexample.com.au.png" /></p>
+<hr />
+<h2 id="cleaning-up">Cleaning Up</h2>
+<p>As long as these lines remain in the <code class="codehilite"><span class="nf">hosts</span></code> file the DNS override will be in effect for your PC, so always be sure to remove any additions made to your <code class="codehilite"><span class="nf">hosts</span></code> file when you have finished your testing.</p>
+<hr />
+<h1 id="further-resources">Further Resources</h1>
+<blockquote>
+<p>Still in need of help? For speedy assistance our friendly staff are always ready to help via our <a href="https://helpdesk.hostnetworks.com.au/core/">helpdesk</a>, on <a href="https://twitter.com/HostNetworks">Twitter</a>, through our <a href="https://hostnetworks.com.au/">website</a>, or directly via <a href="../../contact/">email to support</a>.</p>
+</blockquote>
+<hr />
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../email-settings/" title="E-Mail Settings" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                E-Mail Settings
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../php-opcache/" title="PHP OPcache" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                PHP OPcache
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 Host Networks
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://facebook.com/HostNetworksAU" class="md-footer-social__link fa fa-facebook"></a>
+    
+      <a href="https://twitter.com/HostNetworks" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-8e4952e681.js"></script>
+      
+      <script>app.initialize({version:"0.17.1",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

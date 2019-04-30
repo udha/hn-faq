@@ -1,0 +1,194 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Host Networks \nFAQ\n\n\nTop FAQ Articles\n\n\n\n\n\n\n\n\nFAQ Article\n\n\nCategory\n\n\nPurpose\n\n\n\n\n\n\n\n\n\n\nDNS Hosts File\n\n\ncPanel Hosting\n\n\nDetails how to use your hosts file\n\n\n\n\n\n\nE-Mail Settings\n\n\ncPanel Hosting\n\n\nOutlines correct E-Mail Settings to use\n\n\n\n\n\n\nPHP OPcache\n\n\ncPanel Hosting\n\n\nSteps to optimise and control OPcache\n\n\n\n\n\n\n\n\n\n\nFurther Resources\n\n\n\n\nStill in need of help? For speedy assistance our friendly staff are always ready to help via our \nhelpdesk\n, on \nTwitter\n, through our \nwebsite\n, or directly via \nemail to support\n.",
+            "title": "FAQ Home"
+        },
+        {
+            "location": "/#host-networks-faq",
+            "text": "",
+            "title": "Host Networks FAQ"
+        },
+        {
+            "location": "/#top-faq-articles",
+            "text": "FAQ Article  Category  Purpose      DNS Hosts File  cPanel Hosting  Details how to use your hosts file    E-Mail Settings  cPanel Hosting  Outlines correct E-Mail Settings to use    PHP OPcache  cPanel Hosting  Steps to optimise and control OPcache",
+            "title": "Top FAQ Articles"
+        },
+        {
+            "location": "/#further-resources",
+            "text": "Still in need of help? For speedy assistance our friendly staff are always ready to help via our  helpdesk , on  Twitter , through our  website , or directly via  email to support .",
+            "title": "Further Resources"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/",
+            "text": "E-Mail Settings \nFAQ\n\n\nSuggested Settings\n\n\nThe advised E-Mail Settings to use for an account with a domain name of \nmyexample.com.au\n would be:\n\n\n\n\nAuthentication Details\n\n\n\n\nUsername:\n \nuser@myexample.com.au\n\n\nPassword:\n \nyour mailbox password\n\n\n\n\n\n\nIncoming Server\n\n\n\n\nIncoming Server:\n \nmail.myexample.com.au\n\n\nIMAP Port:\n \n993\n\n\nPOP3 Port:\n \n995\n\n\n\n\n\n\nOutgoing Server\n\n\n\n\nServer:\n \nmail.myexample.com.au\n\n\nSMTP Port:\n \n465\n\n\n\n\n\n\nThese settings can also be found under `cPanel \n Email Accounts \n Set Up Mail Client\n\n\n\n\n\n\nStep-by-step Instructions\n\n\nMail for Windows 10\n\n\n\n\n\n\nAdding an account, click the \nsettings \n at the bottom-left \nand choose \nManage accounts\n from the Settings menu that appears on the right.\n\n\nWithin the \nManage accounts\n menu find and click \n+ Add account\n:\n\n\n\n\n\n\nChoose an account, click on \nOther account (POP, IMAP)\n:\n\n\n\n\n\n\nEnter the following details and click \nSign in\n\n\n\n\n\n\nCongratulations, your account is now ready to go.\n\n\n\n\n\n\nFurther Resources\n\n\n\n\nStill in need of help? For speedy assistance our friendly staff are always ready to help via our \nhelpdesk\n, on \nTwitter\n, through our \nwebsite\n, or directly via \nemail to support\n.",
+            "title": "E-Mail Settings"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#e-mail-settings-faq",
+            "text": "",
+            "title": "E-Mail Settings FAQ"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#suggested-settings",
+            "text": "The advised E-Mail Settings to use for an account with a domain name of  myexample.com.au  would be:",
+            "title": "Suggested Settings"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#authentication-details",
+            "text": "Username:   user@myexample.com.au  Password:   your mailbox password",
+            "title": "Authentication Details"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#incoming-server",
+            "text": "Incoming Server:   mail.myexample.com.au  IMAP Port:   993  POP3 Port:   995",
+            "title": "Incoming Server"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#outgoing-server",
+            "text": "Server:   mail.myexample.com.au  SMTP Port:   465    These settings can also be found under `cPanel   Email Accounts   Set Up Mail Client",
+            "title": "Outgoing Server"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#step-by-step-instructions",
+            "text": "",
+            "title": "Step-by-step Instructions"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#mail-for-windows-10",
+            "text": "Adding an account, click the  settings   at the bottom-left \nand choose  Manage accounts  from the Settings menu that appears on the right.  Within the  Manage accounts  menu find and click  + Add account :    Choose an account, click on  Other account (POP, IMAP) :    Enter the following details and click  Sign in    Congratulations, your account is now ready to go.",
+            "title": "Mail for Windows 10"
+        },
+        {
+            "location": "/cpanel-hosting/email-settings/#further-resources",
+            "text": "Still in need of help? For speedy assistance our friendly staff are always ready to help via our  helpdesk , on  Twitter , through our  website , or directly via  email to support .",
+            "title": "Further Resources"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/",
+            "text": "Hosts File \nFAQ\n\n\nAbout hosts files\n\n\nA \nhosts\n file can be used to override the DNS for your domain name. This is ideal for testing new site hosting before making any public DNS changes, so that you can confirm everything is working right.\n\n\nTo point \nmyexample.com.au\n domain to \n202.174.108.4\n using your \nhosts\n file we will simply need to add the following lines into the \nhosts\n file: \n\n\n202.174.108.4\n   \nmyexample.com.au\n\n\n202.174.108.4\n   \nwww.myexample.com.au\n\n\n\n\n\nAdvanced \nIPv6\n tips:\nManually Set an \nIPv6\n \nAAAA\n \nrecord\n:\n\n2402:e400::0\n     \nmyexample.com.au\n\n\n2402:e400::0\n     \nwww.myexample.com.au\n\n\nOverride existing \nIPv6\n \nAAAA\n \nrecords\n with an \nIPv4\n address:\n::202.174.108.4\n   \nmyexample.com.au\n\n\n::202.174.108.4\n   \nwww.myexample.com.au\n\n\n\n\n\n\nHow-To\n\n\nFor modern Windows users open the start menu and type \nnotepad\n to have the built-in search locate the \nNotepad\n \nDesktop App\n. Then \nright-click\n on it and select \nRun as administrator\n:\n\n\n\n\n\n\nWithin \nNotepad\n click \nFile \n Open...\n and type or copy-paste the following \nFile name\n:\n\n\nC:\\Windows\\system32\\drivers\\etc\\hosts\n\n\n\n\n\n\n\n\n\nOnce you have clicked \nOpen\n you will see the contents of your \nhosts\n file. This is where we add the IP address followed by the domain name on a new line, in our example we will add the following:\n\n\n202.174.108.4\n   \nmyexample.com.au\n\n\n202.174.108.4\n   \nwww.myexample.com.au\n\n\n\n\n\n\n\n\n\nRemember to \nSave\n the changes in \nnotepad\n before we \nping\n to test the changes made:\n\n\nping\n \nwww.myexample.com.au\n\n\n\n\n\n\n\n\n\nCleaning Up\n\n\nAs long as these lines remain in the \nhosts\n file the DNS override will be in effect for your PC, so always be sure to remove any additions made to your \nhosts\n file when you have finished your testing.\n\n\n\n\nFurther Resources\n\n\n\n\nStill in need of help? For speedy assistance our friendly staff are always ready to help via our \nhelpdesk\n, on \nTwitter\n, through our \nwebsite\n, or directly via \nemail to support\n.",
+            "title": "Hosts File"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/#hosts-file-faq",
+            "text": "",
+            "title": "Hosts File FAQ"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/#about-hosts-files",
+            "text": "A  hosts  file can be used to override the DNS for your domain name. This is ideal for testing new site hosting before making any public DNS changes, so that you can confirm everything is working right.  To point  myexample.com.au  domain to  202.174.108.4  using your  hosts  file we will simply need to add the following lines into the  hosts  file:   202.174.108.4     myexample.com.au  202.174.108.4     www.myexample.com.au   Advanced  IPv6  tips: Manually Set an  IPv6   AAAA   record : 2402:e400::0       myexample.com.au  2402:e400::0       www.myexample.com.au  Override existing  IPv6   AAAA   records  with an  IPv4  address: ::202.174.108.4     myexample.com.au  ::202.174.108.4     www.myexample.com.au",
+            "title": "About hosts files"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/#how-to",
+            "text": "For modern Windows users open the start menu and type  notepad  to have the built-in search locate the  Notepad   Desktop App . Then  right-click  on it and select  Run as administrator :    Within  Notepad  click  File   Open...  and type or copy-paste the following  File name :  C:\\Windows\\system32\\drivers\\etc\\hosts     Once you have clicked  Open  you will see the contents of your  hosts  file. This is where we add the IP address followed by the domain name on a new line, in our example we will add the following:  202.174.108.4     myexample.com.au  202.174.108.4     www.myexample.com.au     Remember to  Save  the changes in  notepad  before we  ping  to test the changes made:  ping   www.myexample.com.au",
+            "title": "How-To"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/#cleaning-up",
+            "text": "As long as these lines remain in the  hosts  file the DNS override will be in effect for your PC, so always be sure to remove any additions made to your  hosts  file when you have finished your testing.",
+            "title": "Cleaning Up"
+        },
+        {
+            "location": "/cpanel-hosting/hosts-file/#further-resources",
+            "text": "Still in need of help? For speedy assistance our friendly staff are always ready to help via our  helpdesk , on  Twitter , through our  website , or directly via  email to support .",
+            "title": "Further Resources"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/",
+            "text": "PHP OPcache \nFAQ\n\n\nIntroduction\n\n\nThe PHP Group\n describes \nPHP OPcache\n as improving \nPHP\n performance by storing precompiled script bytecode in shared memory, thereby removing the need for \nPHP\n to load and parse scripts on each request.\n\n\n\n\nTo learn more about the overwhelming benefits of using \nOPcache\n we suggest starting with this AppDynamics article: \nWhy Every PHP Application Should Use an OpCache\n\n\n\n\n\n\nConfiguring OPcache\n\n\nComplete \nruntime configuration\n is provided to each \ncPanel\n account by default. Methods of configuration include exposing \nOPcache\n functions for scripts, allowing configuration controls within \n.htaccess\n files, and directly within \ncPanel\n.\n\n\n\n\nFlush OPcache\n\n\nFlushing OPcache on demand is recommended for most situations\n\n\n\n\n\n\nCreate a \nPHP\n file with the following code:\n\n\n?php\n\n    \nopcache_reset\n();\n\n    \nprint\n(\nDone.\n);\n\n\n?\n\n\n\n\nThat's it!\n Now, any time you request that \nPHP\n script in your browser it will flush the server side cache, so that you can keep the performance benefits in place, while also ensuring any \nPHP\n code changes are brought into effect as required.\n\n\n\n\n\n\n\n\nTip\n\n\nMore details about \nPHPs\n \nopcache_reset\n function can be found in the \nPHP Manual for opcache_reset\n along with further code snippets and examples.\n\n\n\n\n\n\nToggle OPcache On/Off\n\n\nGenerally completely disabling OPcache in this way is not recommended\n\n\nWithin \ncPanel\n Navigate to \nSelect PHP Version\n:\n\n\n\n\nNext, simply \nCheck\n or \nUncheck\n the \nopcache\n \n(and \nzend_guard_loader\n if present)\n extensions and then \nSave\n to apply the change:\n\n\n\n\n\n\nFurther Resources\n\n\n\n\nStill in need of help? For speedy assistance our friendly staff are always ready to help via our \nhelpdesk\n, on \nTwitter\n, through our \nwebsite\n, or directly via \nemail to support\n.",
+            "title": "PHP OPcache"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#php-opcache-faq",
+            "text": "",
+            "title": "PHP OPcache FAQ"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#introduction",
+            "text": "The PHP Group  describes  PHP OPcache  as improving  PHP  performance by storing precompiled script bytecode in shared memory, thereby removing the need for  PHP  to load and parse scripts on each request.   To learn more about the overwhelming benefits of using  OPcache  we suggest starting with this AppDynamics article:  Why Every PHP Application Should Use an OpCache",
+            "title": "Introduction"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#configuring-opcache",
+            "text": "Complete  runtime configuration  is provided to each  cPanel  account by default. Methods of configuration include exposing  OPcache  functions for scripts, allowing configuration controls within  .htaccess  files, and directly within  cPanel .",
+            "title": "Configuring OPcache"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#flush-opcache",
+            "text": "Flushing OPcache on demand is recommended for most situations    Create a  PHP  file with the following code:  ?php \n     opcache_reset (); \n     print ( Done. );  ?   That's it!  Now, any time you request that  PHP  script in your browser it will flush the server side cache, so that you can keep the performance benefits in place, while also ensuring any  PHP  code changes are brought into effect as required.     Tip  More details about  PHPs   opcache_reset  function can be found in the  PHP Manual for opcache_reset  along with further code snippets and examples.",
+            "title": "Flush OPcache"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#toggle-opcache-onoff",
+            "text": "Generally completely disabling OPcache in this way is not recommended  Within  cPanel  Navigate to  Select PHP Version :   Next, simply  Check  or  Uncheck  the  opcache   (and  zend_guard_loader  if present)  extensions and then  Save  to apply the change:",
+            "title": "Toggle OPcache On/Off"
+        },
+        {
+            "location": "/cpanel-hosting/php-opcache/#further-resources",
+            "text": "Still in need of help? For speedy assistance our friendly staff are always ready to help via our  helpdesk , on  Twitter , through our  website , or directly via  email to support .",
+            "title": "Further Resources"
+        },
+        {
+            "location": "/networking/win10v6/",
+            "text": "Windows 10 \nIPv6\n\n\nAllow ICMPv6 Ping Reply\n\n\nWindows unfortunately blocks certain ICMPv6 packets by default. This becomes a nuisance when troubleshooting and testing IPv6 networking from a Windows system.\n\n\nStep-by-step Instructions\n\n\nPermit ICMPv6 in Windows 10\n\n\n\n\nOpen \nStart / Run\n then type: \nwf.msc\n \n\n\nPress \nEnter\n or click \nOK\n to open a Microsoft Management Console with the \nWindows Defender Firewall with Advanced Security\n snap-in\n\n\n\n\nFrom the Firewall settings select \nInbound Rules\n and click \nNew Rule\u2026\n On the \nRule Type\n page, select \nCustom\n and click \nNext \n\n\n\n\nSelect \nAll programs\n and click \nNext \n\n\n\n\nChange \nProtocol type\n to \nICMPv6\n then click \nNext \n\n\n\n\n\n\nLeave the \nScope\n unchanged  and click \nNext \n \n(Default scope is Any IP address)\n\n\n\n\nEnsure \nAllow the connection\n is selected then click \nNext \n\n\n\n\nSelect your required profiles and click \nNext \n\n\n\n\nEnter a name, we went with \nPermit All ICMPv6\n and click \nFinish\n\n\n\n\nFurther Resources\n\n\n\n\nStill in need of help? For speedy assistance our friendly staff are always ready to help via our \nhelpdesk\n, on \nTwitter\n, through our \nwebsite\n, or directly via \nemail to support\n.",
+            "title": "Windows and IPv6"
+        },
+        {
+            "location": "/networking/win10v6/#windows-10-ipv6",
+            "text": "",
+            "title": "Windows 10 IPv6"
+        },
+        {
+            "location": "/networking/win10v6/#allow-icmpv6-ping-reply",
+            "text": "Windows unfortunately blocks certain ICMPv6 packets by default. This becomes a nuisance when troubleshooting and testing IPv6 networking from a Windows system.",
+            "title": "Allow ICMPv6 Ping Reply"
+        },
+        {
+            "location": "/networking/win10v6/#step-by-step-instructions",
+            "text": "",
+            "title": "Step-by-step Instructions"
+        },
+        {
+            "location": "/networking/win10v6/#permit-icmpv6-in-windows-10",
+            "text": "Open  Start / Run  then type:  wf.msc    Press  Enter  or click  OK  to open a Microsoft Management Console with the  Windows Defender Firewall with Advanced Security  snap-in   From the Firewall settings select  Inbound Rules  and click  New Rule\u2026  On the  Rule Type  page, select  Custom  and click  Next    Select  All programs  and click  Next    Change  Protocol type  to  ICMPv6  then click  Next     Leave the  Scope  unchanged  and click  Next    (Default scope is Any IP address)   Ensure  Allow the connection  is selected then click  Next    Select your required profiles and click  Next    Enter a name, we went with  Permit All ICMPv6  and click  Finish",
+            "title": "Permit ICMPv6 in Windows 10"
+        },
+        {
+            "location": "/networking/win10v6/#further-resources",
+            "text": "Still in need of help? For speedy assistance our friendly staff are always ready to help via our  helpdesk , on  Twitter , through our  website , or directly via  email to support .",
+            "title": "Further Resources"
+        },
+        {
+            "location": "/contact/",
+            "text": "Contacting \nHost Networks\n\n\nCustomer Support\n\n\nE: \n  \n\n\n\n\nHosting and Co-Location\n\n\nW: \nhttps://hostnetworks.com.au/\n\nE: \n  \n\n\n\n\nOur Services\n\n\n\n\nHost Networks Services\n\n\nIf you would like to know more about Host Networks please visit \nour site\n for information on the services we provide, or our \nhelpdesk\n to ask us any questions, technical or sales related.\n\n\n\n\n\n\nTechnical NOC Contact\n\n\nT: +61.7 3118 5449\n\nE: \n \n(peering partners, ISP's only)",
+            "title": "Contact"
+        },
+        {
+            "location": "/contact/#contacting-host-networks",
+            "text": "",
+            "title": "Contacting Host Networks"
+        },
+        {
+            "location": "/contact/#customer-support",
+            "text": "E:",
+            "title": "Customer Support"
+        },
+        {
+            "location": "/contact/#hosting-and-co-location",
+            "text": "W:  https://hostnetworks.com.au/ \nE:",
+            "title": "Hosting and Co-Location"
+        },
+        {
+            "location": "/contact/#our-services",
+            "text": "Host Networks Services  If you would like to know more about Host Networks please visit  our site  for information on the services we provide, or our  helpdesk  to ask us any questions, technical or sales related.",
+            "title": "Our Services"
+        },
+        {
+            "location": "/contact/#technical-noc-contact",
+            "text": "T: +61.7 3118 5449 \nE:    (peering partners, ISP's only)",
+            "title": "Technical NOC Contact"
+        }
+    ]
+}
